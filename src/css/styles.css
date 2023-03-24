@@ -1,0 +1,64 @@
+.search-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  padding: 15px 15px;
+  margin: 0;
+  width: 100%;
+
+  text-align: center;
+
+  background-color: grey;
+}
+
+body {
+  padding-top: 80px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.load-more {
+  display: block;
+  margin: 0 auto;
+  background-color: lightgrey;
+}
+
+.load-more.is-hidden {
+  display: none;
+}
+
+input[name='searchQuery'] {
+  width: 200px;
+  padding: 10px 5px;
+}
+
+button[type='submit'] {
+  padding: 10px 15px;
+  width: 75px;
+  border-radius: 50%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  gap: 10px;
+
+  margin-bottom: 10px;
+}
+
+.photo-card {
+  border: black solid 2px;
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
