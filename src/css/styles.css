@@ -10,7 +10,7 @@
 
   text-align: center;
 
-  background-color: grey;
+  background-color: rgb(142, 152, 206);
 }
 
 body {
@@ -35,12 +35,15 @@ body {
 input[name='searchQuery'] {
   width: 200px;
   padding: 10px 5px;
+  border-radius: 4%;
+  border-color: rgb(109, 142, 170);
 }
 
 button[type='submit'] {
   padding: 10px 15px;
   width: 75px;
-  border-radius: 50%;
+  border-radius: 4%;
+  border-color: rgb(109, 142, 170);
 }
 
 .gallery {
@@ -54,7 +57,7 @@ button[type='submit'] {
 }
 
 .photo-card {
-  border: black solid 2px;
+  border: rgb(192, 192, 192) solid 2px;
 }
 
 .info {
